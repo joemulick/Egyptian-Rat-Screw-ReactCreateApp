@@ -9,11 +9,11 @@ Relevant reading material:
 <p align="center">
 	<br><br>
   <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/Flowchart.jpeg'>
-  	<br><br>
+  	<br><hr><br>
   <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/wireframe.jpg'>
-  	<br><br>
+  	<br><hr><br>
   <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/searching.jpg'>
-  	<br><br>
+  	<br><hr><br>
   <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/gameplay.jpg'>
   	<br><br>
 </p>
