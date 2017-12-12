@@ -1,7 +1,13 @@
 # Egyptian-Rat-Screw-ReactCreateAppgit
 This repository hosts a version of Egyptian Rat Screw the card game using React Create App as the front end development environment.  
 
-Relevant reading material:  
+Relevant reading material: 
+
+Development Enviornment: 
+
+- Create React App with an Express Backend ( https://daveceddia.com/create-react-app-express-backend/ ) 
+  * This was the guide I used the last time I created a react appliction when I wanted to utilize express. 
+  * The last app I built used Express and also React Router. Express for API calling and React Router for single page application routing. 
 
 - Deploying React App alongside an API server ( https://www.fullstackreact.com/articles/deploying-a-react-app-with-a-server/ )  
 
