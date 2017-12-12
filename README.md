@@ -5,9 +5,19 @@ Relevant reading material:
 
 Development Enviornment: 
 
-- Create React App with an Express Backend ( https://daveceddia.com/create-react-app-express-backend/ ) 
+- Create React App with an Express Backend ( https://daveceddia.com/create-react-app-express-backend/ )  
   * This was the guide I used the last time I created a react appliction when I wanted to utilize express. 
-  * The last app I built used Express and also React Router. Express for API calling and React Router for single page application routing. 
+  * The last app I built used Express and also React Router. Express for API calling and React Router for single page application routing.
+
+- Use create-react-app as a full-stack tool, with Express and Sequelize (PostgreSQL) ( https://github.com/ekatzenstein/create-react-app-fullstack )  
+  * The Stack
+      -PostgreSQL  
+      -Sequelize  
+      -Node/Express.js  
+      -React  
+      -Redux  
+      -React-Router  
+
 
 - Deploying React App alongside an API server ( https://www.fullstackreact.com/articles/deploying-a-react-app-with-a-server/ )  
 
