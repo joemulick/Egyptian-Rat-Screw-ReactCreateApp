@@ -7,7 +7,7 @@ Relevant reading material:
 
 
 
-![Alt text](https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/Egyption%20screw%20rat%20game%20flowchart.jpg "Egyptian Rat Screw Flowchart Layout")  
+![Alt text](https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/Flowchart.jpeg "Egyptian Rat Screw Flowchart Layout")  
 
 ![Alt text](https://user-images.githubusercontent.com/20348042/33861234-99249116-de91-11e7-9cc7-3a66e94131f6.jpg "Egyptian Rat Screw Homepage Layout")  
 
