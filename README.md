@@ -1,5 +1,11 @@
 # Egyptian-Rat-Screw-ReactCreateApp
-This repository hosts a version of Egyptian Rat Screw the card game using React Create App as the front end development environment.
+This repository hosts a version of Egyptian Rat Screw the card game using React Create App as the front end development environment.  
+
+Relevant reading material:  
+
+- Deploying React App alongside an API server ( https://www.fullstackreact.com/articles/deploying-a-react-app-with-a-server/ )  
+
+
 
 ![Alt text](https://user-images.githubusercontent.com/20348042/33861230-949ef956-de91-11e7-8267-487a99201b04.jpg "Egyptian Rat Screw Flowchart Layout")  
 
