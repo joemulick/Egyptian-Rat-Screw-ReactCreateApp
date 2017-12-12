@@ -9,14 +9,20 @@ Relevant reading material:
 <p align="center">
 	<br><br>
   <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/Flowchart.jpeg'>
+  </p>
   	<br><hr><br>
+  	<p align="center">
   <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/wireframe.jpg'>
-  	<br><hr><br>
-  <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/searching.jpg'>
-  	<br><hr><br>
-  <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/gameplay.jpg'>
-  	<br><br>
 </p>
+  	<br><hr><br>
+  	<p align="center">
+  <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/searching.jpg'>
+</p>
+  	<br><hr><br>
+  	<p align="center">
+  <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/gameplay.jpg'>
+</p>
+  	<br><br>
 
 
 <!-- ![Alt text](https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/Flowchart.jpeg "Egyptian Rat Screw Flowchart Layout")  
