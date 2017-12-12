@@ -14,12 +14,12 @@ Relevant reading material:
   	<br><br>
   <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/searching.jpg'>
   	<br><br>
-  <img src=''>
+  <img src='https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/gameplay.jpg'>
   	<br><br>
 </p>
 
 
-![Alt text](https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/Flowchart.jpeg "Egyptian Rat Screw Flowchart Layout")  
+<!-- ![Alt text](https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/Flowchart.jpeg "Egyptian Rat Screw Flowchart Layout")  
 <return>
 ![Alt text](https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/wireframe.jpg "Egyptian Rat Screw Homepage Layout")  
 <return>
@@ -27,3 +27,4 @@ Relevant reading material:
 <return>
 ![Alt text](https://user-images.githubusercontent.com/20348042/33861231-97769828-de91-11e7-8892-18a0cadade6f.jpg "Egyptian Rat Screw Game In Game Layout")
 
+ -->
