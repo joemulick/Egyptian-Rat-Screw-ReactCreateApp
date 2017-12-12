@@ -1,4 +1,4 @@
-# Egyptian-Rat-Screw-ReactCreateApp
+# Egyptian-Rat-Screw-ReactCreateAppgit
 This repository hosts a version of Egyptian Rat Screw the card game using React Create App as the front end development environment.  
 
 Relevant reading material:  
@@ -7,7 +7,7 @@ Relevant reading material:
 
 
 
-![Alt text](https://user-images.githubusercontent.com/20348042/33861230-949ef956-de91-11e7-8267-487a99201b04.jpg "Egyptian Rat Screw Flowchart Layout")  
+![Alt text](https://raw.githubusercontent.com/joemulick/Egyptian-Rat-Screw-ReactCreateApp/master/Egyption%20screw%20rat%20game%20flowchart.jpg "Egyptian Rat Screw Flowchart Layout")  
 
 ![Alt text](https://user-images.githubusercontent.com/20348042/33861234-99249116-de91-11e7-9cc7-3a66e94131f6.jpg "Egyptian Rat Screw Homepage Layout")  
 
