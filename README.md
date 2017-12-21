@@ -6,41 +6,81 @@ This repository hosts a version of Egyptian Rat Screw the card game using React 
 
  -- Please use this readme to keep yourself updated on the current state of the app.  
 
-# Current State of the App:  
+# Current State of the App: 
+  
+ -- Early Development, Planning and Setting up development enviornment. 
 
- -- Early Development, Planning and Setting up development enviornment.  
+ -- The backened express server and react create app enviornment is set up using ( https://daveceddia.com/create-react-app-express-backend/ ) as a guide.   
+
+ -- Next we should set up:  
+  -- FRONT END THINGS --   
+  
+    -- React Router (Single Page Application Routing)  
+    -- Mobile responsive front end library ( Material UI? Bootstrap? TBD )  
+    -- Setting up Redux for react.js state management ( Not needed right now, but will possibly need in future? )  
+  
+  -- BACK END THINGS --  
+      
+    -- Set up postgreSQL db enviornment ( I will start looking into this )  
+    -- Look into settin up socket io on top of express server  
+  
+# To Run the Application in development:   
+
+  -- $ git clone git@github.com:joemulick/Egyptian-Rat-Screw-ReactCreateApp.git  
+  -- $ cd ers  
+  -- $ npm install  
+  -- $ cd ersclient  
+  -- $ npm install  
+  -- $ cd ..  
+  -- $ PORT=3001 node bin/www  
+  -- $ cd ersclient  
+  -- $ cd ers client  
+  
+Detailed explanation below:     
+    
+1.) Clone the Repo:  
+
+  -- $ git clone git@github.com:joemulick/Egyptian-Rat-Screw-ReactCreateApp.git  
+
+2.) Install all dependencies (Need to install two sets of dependencies):  
+
+  -- $ cd ers  
+  -- $ npm install  
+  
+      AND  
+  
+  -- $ cd ersclient  
+  -- $ npm install  
+
+3.) Run the server (from the ers directory):  
+  
+  -- $ cd ..  
+  -- $ PORT=3001 node bin/www  
+  -- The server is going to be running on PORT 3001 while the React Creat App will be running on PORT 3000  
+
+4.) Run the react-create-app client:  
+  
+  -- $ cd ersclient  
+  -- $ cd ers client  
+
+5.) Visit localhost:3001 in browser  
+
 
 # The Stack:  
-
+  
   Backend == Node.js / Express.js  (server script and API routing)  
   Backend == PostgreSQL (database)
-  
+    
   Frontend == React.js (Front End Library)  
   Frontend == Redux (State management for react)  
   Frontend == React Router (Single Page Application Routing)  
-  
+    
 # Relevant reading material: 
 
 Development Enviornment: 
 
 - Create React App with an Express Backend ( https://daveceddia.com/create-react-app-express-backend/ )  
   * I used this guide previously to build a fullstack react app.
-
-- Using create-react-app with React Router + Express.js ( https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d )  
-  * This guide seems similar to the one above and can also be utilized.  
-
-- How to get "create-react-app" to work with your API ( https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/ )  
-  * This article seems relevant 
-
-- Use create-react-app as a full-stack tool, with Express and Sequelize (PostgreSQL) ( https://github.com/ekatzenstein/create-react-app-fullstack )  
-  * The Stack    
-      -PostgreSQL  
-      -Sequelize  
-      -Node/Express.js  
-      -React  
-      -Redux  
-      -React-Router   
-  ( 12/14/2017 | Joe Mulick | I was not able to get this particular guide to work properly; It was not recognizing the fullstack command.. Explanation in the github repo seems poor. )
 
 
 <p align="center">
