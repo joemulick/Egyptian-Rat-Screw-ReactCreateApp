@@ -32,7 +32,7 @@ This repository hosts a version of Egyptian Rat Screw the card game using React 
   -- $ cd ersclient  
   -- $ npm install  
   -- $ cd ..  
-  -- $ PORT=3001 node bin/www (Leave this terminal running)
+  -- $ PORT=3001 node bin/www (Leave this terminal running)  
   -- $ cd ersclient  
   -- Open a new bash terminal in ersclient  
   -- $ npm start  
