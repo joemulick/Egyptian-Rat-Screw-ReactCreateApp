@@ -32,9 +32,10 @@ This repository hosts a version of Egyptian Rat Screw the card game using React 
   -- $ cd ersclient  
   -- $ npm install  
   -- $ cd ..  
-  -- $ PORT=3001 node bin/www  
+  -- $ PORT=3001 node bin/www (Leave this terminal running)
   -- $ cd ersclient  
-  -- $ cd ers client  
+  -- Open a new bash terminal in ersclient  
+  -- $ npm start  
   
 Detailed explanation below:     
     
@@ -55,13 +56,13 @@ Detailed explanation below:
 3.) Run the server (from the ers directory):  
   
   -- $ cd ..  
-  -- $ PORT=3001 node bin/www  
+  -- $ PORT=3001 node bin/www ( leave this termainal running)
   -- The server is going to be running on PORT 3001 while the React Creat App will be running on PORT 3000  
 
-4.) Run the react-create-app client:  
+4.) Open a new terminal in react-create-app client (ersclient folder):  
   
   -- $ cd ersclient  
-  -- $ cd ers client  
+  -- $ npm start  
 
 5.) Visit localhost:3001 in browser  
 
