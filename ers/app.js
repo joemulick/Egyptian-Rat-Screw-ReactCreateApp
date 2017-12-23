@@ -7,13 +7,13 @@ var bodyParser = require('body-parser');
 var io = require('socket.io');
 var db = require('./db');
 
-var index = require('./routes/index');
-var users = require('./routes/users');
-
 var app = express();
 
 // attach socket.io object to app
 app.io = io();
+
+var index = require('./routes/index')(app.io);
+var users = require('./routes/users');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -27,7 +27,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index(app.io));
+app.use('/', index);
 app.use('/users', users);
 
 // catch 404 and forward to error handler
