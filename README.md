@@ -93,6 +93,7 @@ To stop:
 
 
 *NOTE: No code exists to create an actual database yet.*
+_See [this article](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx) for more details._
 
 # The Stack:  
   
