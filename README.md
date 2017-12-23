@@ -66,6 +66,34 @@ Detailed explanation below:
 
 5.) Once you start the react create app client your browser should start up localhost:3000 automatically.
 
+## Setting Up a Local Database
+### Mac OSX
+#### Homebrew
+
+`$ brew install postgresql`
+
+##### Start Automatically
+Running this command once will make postgres start up automatically
+any time you turn on your computer.
+
+`$ brew services start postgresql`
+
+To manually stop:
+
+`$ brew services stop postgresql`
+
+##### Start Manually
+For a one-time startup, use:
+
+`pg_ctl -D /usr/local/var/postgres start`
+
+To stop:
+
+`pg_ctl -D /usr/local/var/postgres stop`
+
+_See [this article](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx) for more details._
+
+*NOTE: No code exists to create an actual database yet.*
 
 # The Stack:  
   
