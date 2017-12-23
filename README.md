@@ -91,9 +91,9 @@ To stop:
 
 `pg_ctl -D /usr/local/var/postgres stop`
 
+_See [this article](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx) for more details._
 
 *NOTE: No code exists to create an actual database yet.*
-_See [this article](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx) for more details._
 
 # The Stack:  
   
