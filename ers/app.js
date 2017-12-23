@@ -4,12 +4,16 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var io = require('socket.io');
 var db = require('./db');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+
+// attach socket.io object to app
+app.io = io();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -23,7 +27,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index);
+app.use('/', index(app.io));
 app.use('/users', users);
 
 // catch 404 and forward to error handler
@@ -42,6 +46,11 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+// socket.io events
+app.io.on('connection', (socket) => {
+  console.log("User " + socket.id + " connected")
 });
 
 db.connect();
