@@ -9,7 +9,7 @@ const connect = () => {
       console.error("Couldn't connect to the database...");
     }
   })
-}
+};
 
 module.exports = {
   connect

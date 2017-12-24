@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var io = require('socket.io');
 var db = require('./db');
+var { matchRequest } = require('./game_search');
 
 var app = express();
 
@@ -49,11 +50,7 @@ app.use(function(err, req, res, next) {
 });
 
 // socket.io events
-app.io.on('connection', (socket) => {
-  socket.on('match_request', function () {
-      console.log("User " + this.id + " requested a game")
-  })
-});
+app.io.on('connection', matchRequest);
 
 db.connect();
 module.exports = app;
