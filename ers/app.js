@@ -12,7 +12,7 @@ var app = express();
 // attach socket.io object to app
 app.io = io();
 
-var index = require('./routes/index')(app.io);
+var index = require('./routes/index');
 var users = require('./routes/users');
 
 // view engine setup
@@ -50,7 +50,9 @@ app.use(function(err, req, res, next) {
 
 // socket.io events
 app.io.on('connection', (socket) => {
-  console.log("User " + socket.id + " connected")
+  socket.on('match_request', function () {
+      console.log("User " + this.id + " requested a game")
+  })
 });
 
 db.connect();

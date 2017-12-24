@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import GameSearch from "../GameSearch/GameSearch";
 
 class Home extends Component {
   render() {
@@ -6,7 +7,8 @@ class Home extends Component {
 
     	<div>
     		<p>This is the home page</p>
-    	</div>  	
+            <GameSearch/>
+    	</div>
     	
     );
   }

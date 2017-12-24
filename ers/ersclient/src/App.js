@@ -10,7 +10,7 @@ import {
 } from 'react-router-dom';
 
 class App extends Component {
-  state = {users: []}
+  state = {users: []};
 
   componentDidMount() {
     fetch('/users')

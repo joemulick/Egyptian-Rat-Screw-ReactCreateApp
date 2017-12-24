@@ -110,6 +110,7 @@ Development Enviornment:
 
 - Create React App with an Express Backend ( https://daveceddia.com/create-react-app-express-backend/ )  
   * I used this guide previously to build a fullstack react app.
+- Good [post](https://stackoverflow.com/questions/24609991/using-socket-io-in-express-4-and-express-generators-bin-www) about using socket.io
 
 
 <p align="center">

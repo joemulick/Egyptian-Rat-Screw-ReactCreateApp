@@ -1,17 +1,9 @@
-module.exports = function(io) {
-  var express = require('express');
-  var router = express.Router();
+let express = require('express');
+let router = express.Router();
 
-  /* GET home page. */
-  router.get('/', function(req, res, next) {
-    console.log("I'm being gotten");
+/* GET home page. */
+router.get('/', function(req, res, next) {
     res.render('index', { title: 'Express' });
-  });
+});
 
-  /* socket.io connection */
-  io.on('connection', function(socket) {
-    console.log("connected to index route");
-  })
-
-  return router;
-}
+module.exports = router;
