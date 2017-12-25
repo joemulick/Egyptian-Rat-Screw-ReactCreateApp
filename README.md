@@ -46,7 +46,7 @@ Detailed explanation below:
 2.) Install all dependencies (Need to install two sets of dependencies):  
 
   -- $ cd ers  
-  -- $ npm install  
+  -- $ npm install
   
       AND  
   
@@ -68,21 +68,20 @@ Detailed explanation below:
 
 ## Setting Up a Local Database
 ### Mac OSX
-#### Homebrew
+#### Install postgreSQL with Homebrew
 
-`$ brew install postgresql`
+    $ brew install postgresql
 
-##### Start Automatically
-Running this command once will make postgres start up automatically
-any time you turn on your computer.
+##### Start postgres via Homebrew
+Running this command once will make postgres start up automatically any time you turn on your computer.
 
-`$ brew services start postgresql`
+`brew services start postgresql`
 
 To manually stop:
 
-`$ brew services stop postgresql`
+`brew services stop postgresql`
 
-##### Start Manually
+##### Start postgres via `pg_ctl`
 For a one-time startup, use:
 
 `pg_ctl -D /usr/local/var/postgres start`
@@ -91,9 +90,19 @@ To stop:
 
 `pg_ctl -D /usr/local/var/postgres stop`
 
+#### Create the Database
+
+    $ createdb ers
+    $ psql -d ers -f db/db_init.sql
+
+This will create a database called `ers` and a role `ersAdmin` with all privileges granted on the database.
+
+    role: ersAdmin
+    password: dirtyRat
+
 _See [this article](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx) for more details._
 
-*NOTE: No code exists to create an actual database yet.*
+__NOTE: No code exists to create an actual database yet.__
 
 # The Stack:  
   
